@@ -13,7 +13,7 @@ Comments and explanations are provided in the code.
 <details>
   <summary><strong>🖼️ Website image</strong></summary>
 
-  ![Внешний вид сайта](https://raw.githubusercontent.com/sazhiromru/images/main/%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82.PNG)
+  ![Внешний вид сайта](https://raw.githubusercontent.com/sazhirom/images/main/%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82.PNG)
 </details>
 
 <details>
@@ -399,7 +399,7 @@ For further processing, the average transaction price over the last 4 days is ca
 <details>
   <summary><strong>🖼️ Страница предмета</strong></summary>
 
-  ![Внешний вид сайта](https://raw.githubusercontent.com/sazhiromru/images/main/item%20page.PNG)
+  ![Внешний вид сайта](https://raw.githubusercontent.com/sazhirom/images/main/item%20page.PNG)
 </details>
 <details>
   <summary><strong>📜 history check </strong></summary>
@@ -709,8 +709,8 @@ We use PgAdmin for data management and visualization. The connection is establis
 <details>
   <summary><strong>🖼️ SSH connection </strong></summary>
 
-  ![Connection](https://raw.githubusercontent.com/sazhiromru/images/main/ssh%20SQL%20bastion%20server.PNG)
-  ![SSH tunnel](https://raw.githubusercontent.com/sazhiromru/images/main/sql%20SSH%20tunnel.PNG)
+  ![Connection](https://raw.githubusercontent.com/sazhirom/images/main/ssh%20SQL%20bastion%20server.PNG)
+  ![SSH tunnel](https://raw.githubusercontent.com/sazhirom/images/main/sql%20SSH%20tunnel.PNG)
 </details>
 
 For scraped data create 4 table, data + item is a unique key
