@@ -1,6 +1,6 @@
 ---
 <a id="scraping-section"></a>
-## ~~~ 1. Data wrangling ~~~
+## ~~~ 1. Data scraping ~~~
 --- 
 
 Data is collected sequentially from three websites and saved in CSV format.  
@@ -493,9 +493,9 @@ def initialize_driver():
     
     options.page_load_strategy = 'eager'
     options.experimental_options["prefs"] = chrome_prefs
+    service = Service(executable_path="/usr/local/bin/chromedriver")  # путь к chromedriver без .exe
 
-    service = Service(executable_path="chromedriver.exe")
-    driver = uc.Chrome(service=service, options=options)
+    driver = uc.Chrome(service=service, options=options, version_main=133)
     driver.set_page_load_timeout(60) 
     return driver
 
