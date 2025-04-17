@@ -48,8 +48,8 @@ def initialize_driver():
     options.page_load_strategy = 'eager'
     options.experimental_options["prefs"] = {"profile.default_content_setting_values": {"images": 2}}
     
-    service = Service(executable_path="chromedriver.exe")
-    driver = uc.Chrome(service=service, options=options)
+    service = Service(executable_path="/usr/local/bin/chromedriver")  # путь к chromedriver без .exe
+    driver = uc.Chrome(service=service, options=options, version_main=133)
     driver.set_page_load_timeout(30)
     return driver
 
